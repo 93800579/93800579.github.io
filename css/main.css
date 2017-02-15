@@ -2618,8 +2618,8 @@ li h6{
     position: relative;
     min-height: 1px;
     float: left;
-    width: 32%;
-    margin: 1% 1% 0 0;
+    width: 50%;
+    /*margin: 1% 1% 0 0;*/
     padding: 2%;
     cursor: pointer;
     transition: all 0.5s ease 0s;
@@ -2665,7 +2665,7 @@ li h6{
     font-size: 15px !important;
 }
 #services .service-detail p {
-    text-align: center;
+    /*text-align: center;*/
     border-left: 0;
 }
 
@@ -2800,4 +2800,9 @@ div.ppt {
     display:inline-block;
     font-family:FontAwesome;
     margin-right: 10px;
+}
+
+#profile_desc p{
+    font-size: 13px;
+    line-height: 18px;
 }
