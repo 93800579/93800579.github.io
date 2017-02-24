@@ -744,7 +744,7 @@ h2.resp-accordion:hover {
     display: inline-block;
     float: left;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 10px;
     text-transform: uppercase;
     padding-top: 2px;
@@ -1223,6 +1223,7 @@ ul.about {
 }
 #resume .resume-left ul li h5 {
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 #resume .attributes li.first{
@@ -2618,8 +2619,8 @@ li h6{
     position: relative;
     min-height: 1px;
     float: left;
-    width: 50%;
-    /*margin: 1% 1% 0 0;*/
+    width: 49%;
+    margin: 1% 1% 0 0;
     padding: 2%;
     cursor: pointer;
     transition: all 0.5s ease 0s;
@@ -2665,8 +2666,9 @@ li h6{
     font-size: 15px !important;
 }
 #services .service-detail p {
-    /*text-align: center;*/
+    text-align: center;
     border-left: 0;
+    color: #3b5998 !important;
 }
 
 #blog .post_media  .post-format-icon {
